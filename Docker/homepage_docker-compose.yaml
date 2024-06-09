@@ -1,0 +1,11 @@
+---
+services:
+  homepage:
+    image: ghcr.io/gethomepage/homepage:latest
+    container_name: homepage
+    volumes:
+      - /path/to/homepage/config:/app/config
+      - /var/run/docker.sock:/var/run/docker.sock
+    ports:
+      - 3000:3000
+    restart: always

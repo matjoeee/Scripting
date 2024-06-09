@@ -1,0 +1,12 @@
+---
+services:
+  cups:
+    image: anujdatar/cups
+    container_name: cups
+    environment:
+      - CUPSADMIN=[username]
+      - CUPSPASSWORD=[password]
+    ports:
+      - 631:631
+    devices: /dev/bus/usb:/dev/bus/usb
+    restart: always

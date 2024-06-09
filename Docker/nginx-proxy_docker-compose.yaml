@@ -1,0 +1,12 @@
+---
+services:
+  nginx:
+    image: jc21/nginx-proxy-manager:latest
+    ports:
+      - 80:80
+      - 81:81
+      - 443:443
+    volumes:
+      - /path/to/nginx/data:/data
+      - /path/to/nginx/letsencrypt:/etc/letsencrypt
+    restart: always

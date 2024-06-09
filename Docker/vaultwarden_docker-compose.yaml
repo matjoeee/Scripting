@@ -1,0 +1,10 @@
+---
+services:
+  vaultwarden:
+    image: vaultwarden/server:latest
+    container_name: vaultwarden
+    volumes:
+      - /path/to/bitwarden/:/data
+    ports:
+      - 8443:80
+    restart: always
