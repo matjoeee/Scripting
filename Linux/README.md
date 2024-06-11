@@ -16,3 +16,6 @@ This is a template to back-up all files to a .tar.gz folder. Can be use to creat
 
 ## 2. backup-to-aws
 This is a template to back-up aforementioned .tar.gz file to an AWS S3 bucket for easy off-site Cloud storage of important files.
+
+## 3. contianer-update
+This is a script that reads through the entire docker-compose file and pulls the latest images for each container. Afterwards it runs the docker-compose command again to update.
