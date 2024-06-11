@@ -34,3 +34,6 @@ Centralized qBittorrent torrenting server.
 
 ## 9. Vaultwarden
 Self-hosted bitwarden vault. It is best to back this one up to an off-site location as well.
+
+## 10. Watchtower
+This is a docker container that keeps track of potential container updates of all other running containers on a docker server.
