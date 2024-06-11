@@ -5,7 +5,7 @@ The scripts in these folders are just templates and do not contain any form of i
 ## 1. PowerShell
 Here will be some PowerShell scripts that I used in my homelab tests. Since all my servers run on Linux, I rarely use those day-to-day.
 
-## 2. Bash
+## 2. Linux
 Here will be some Bash scripts that I actively use in my homelab setup or that I have used in some tests.
 
 ## 3. Docker
