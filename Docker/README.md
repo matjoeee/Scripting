@@ -1,5 +1,5 @@
 # Home Server Containers
-In the docker-compose files found in this directory are some of the containers I use in my personal home lab. I created templates of each individual container, so you can just add it to your own docker-compose file. Dont forget to change path directories, usernames, passwords and timezones according to your needs.
+In the docker-compose files found in this directory are some of the containers I use in my personal home lab. I created templates of each individual container, so you can just add it to your own docker-compose file. Dont forget to change path directories, usernames, passwords, portsand timezones according to your needs.
 
 ## Run the docker-compose file
 ```
