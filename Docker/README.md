@@ -11,20 +11,11 @@ sudo docker-compose up -d
 ## 1. CUPS
 This is a printing server, made to put printers that ran out of driver support and still run on USB connection to be turned into network printers.
 
-## 2. Homepage
-A kind of dashboard made to get a quick overview of all your servers' webUI's. I put this as my startup page of my webbrowser. Modifications can be done in .yaml files.
-
-## 3. Nextcloud
+## 2. Nextcloud
 Cloud storage server with tons of extra features. A great alternative if you don't want to spend money on Google Drive. It is best to back-up to an off-site storage place if you decide to use this as your main storage server.
 
-## 4. Nginx proxy manager
+## 3. Nginx proxy manager
 Proxy manager that works with letsencrypt for easy and free SSL certificates. Ideal for in a home lab in combination with DuckDNS.
 
-## 5. Portainer
+## 4. Portainer
 General dashboard to keep track of all of your docker containers in an environment. Also possible to add Kubernetes and other docker standalone or swarm environments.
-
-## 6. Vaultwarden
-Self-hosted bitwarden vault. It is best to back this one up to an off-site location as well.
-
-## 7. What's Up Docker
-This is a docker container that keeps track of potential container updates of all other running containers on a docker server.
